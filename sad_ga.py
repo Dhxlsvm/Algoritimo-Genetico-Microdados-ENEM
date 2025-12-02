@@ -8,7 +8,7 @@ N_GERACOES = 100  # número de gerações
 TAM_GRUPO = 100  # cada cromossomo representa 100 candidatos
 TAXA_MUT = 0.02  # taxa de mutação
 TAXA_CROSS = 0.8  # taxa de crossover
-AMOSTRA_MAX = 100000  # máximo de registros(meu pc é fraco kk)
+AMOSTRA_MAX = 100000  # máximo de registros(meu pc é fraco, vc pode escolher ou n todos)
 
 
 def carregar_dados(caminho):
@@ -149,3 +149,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
